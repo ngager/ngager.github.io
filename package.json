@@ -1,6 +1,6 @@
 {
   "homepage": "http://ngager.github.io/app",
-  "name": "ngager.github.io",
+  "name": "app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
