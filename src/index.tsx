@@ -1,12 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
-import './index.css';
+import './index.scss';
 import reportWebVitals from './reportWebVitals';
-import App from './components/app/app';
+import App from './components/app/App';
+import Footer from './components/footer/Footer';
+import Header from "./components/header/Header";
+import './scss/spacing.scss'
 
-ReactDOM.render(<Router basename={process.env.PUBLIC_URL}><App /></Router>, document.getElementById('root'));
-console.log('Your process.env.PUBLIC_URL', process.env.PUBLIC_URL);
+const applicationProps = {
+    appStyles: 'mlra mtb10px'
+};
+
+const routing = (
+    <div>
+        <Header />
+        <App {...applicationProps} />
+        <Footer />
+    </div>
+);
+
+ReactDOM.render(routing, document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
