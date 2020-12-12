@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {BrowserRouter as Router} from 'react-router-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import App from './components/app/app';
 
+ReactDOM.render(<Router basename={process.env.PUBLIC_URL}>< App /></Router>, document.getElementById('root'));
 ReactDOM.render(<App />, document.getElementById('root'));
 console.log('Your process.env.PUBLIC_URL', process.env.PUBLIC_URL);
 
