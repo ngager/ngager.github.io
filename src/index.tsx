@@ -3,19 +3,21 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import reportWebVitals from './reportWebVitals';
 import App from './components/app/App';
-import Footer from './components/footer/Footer';
-import Header from "./components/header/Header";
 import './scss/spacing.scss'
+import './scss/layout.scss'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import {fas} from "@fortawesome/free-solid-svg-icons";
+import {fab} from "@fortawesome/free-brands-svg-icons";
+
+library.add(fas, fab);
 
 const applicationProps = {
     appStyles: 'mlra mtb10px'
 };
 
 const routing = (
-    <div>
-        <Header />
+    <div className="h-100">
         <App {...applicationProps} />
-        <Footer />
     </div>
 );
 

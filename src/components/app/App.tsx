@@ -1,5 +1,9 @@
 import * as React from 'react';
 import './App.scss';
+import Header from "../header/Header";
+import Contact from "../contact/Contact";
+import Education from "../education/Education";
+import Skills from "../skills/Skills";
 
 class App extends React.Component<{appStyles: string}> {
   constructor(props: any) {
@@ -13,7 +17,14 @@ class App extends React.Component<{appStyles: string}> {
   }
 
   render() {
-    return <div className={this.getClasses()}>TES</div>;
+    return <div className={this.getClasses()}>
+      <Header/>
+      <div className="h-100">
+        <Contact/>
+        <Education/>
+        <Skills/>
+      </div>
+    </div>;
   }
 }
 
