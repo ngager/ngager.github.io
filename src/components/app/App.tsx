@@ -20,7 +20,7 @@ class App extends React.Component<{appStyles: string}> {
   render() {
     return <div className={this.getClasses()}>
       <Header/>
-      <div className="flex">
+      <div className="content-container">
         <div className="left-container">
           <Contact/>
           <Education/>
