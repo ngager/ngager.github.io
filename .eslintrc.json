@@ -34,8 +34,8 @@
 //                "tsx": "never"
 //            }
 //        ],
-//        "indent": ["error", 2, {"ignoredNodes": ["JSXElement"]}],
-//        "react/jsx-indent": ["error", 2]
+        "indent": ["error", 2, {"ignoredNodes": ["JSXElement"]}],
+        "react/jsx-indent": ["error", 2]
     },
     "settings": {
         "import/resolver": {
