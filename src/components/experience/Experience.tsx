@@ -16,9 +16,12 @@ class Experience extends React.Component {
                 <div className="date-range">March 2018 - Present</div>
                 <div className="responsibilities-list">
                     <ul>
-                        <li>Designed complex front-end features from the ground up</li>
-                        <li>Collaborated with product owners and UX to work out the logistics of new features </li>
-                        <li>Conduct interviews for prospective new hires</li>
+                        <li>Designed and implemented numerous front-end features for Emerson's eCommerce health dispensary, Wellevate, to target practitioners and their patients</li>
+                        <li>Rapidly integrated our online dispensary with VSee, a virtual conferencing platform, to enable telehealth communication for practitioners and their patients at the beginning of Covid</li>
+                        <li>Built out a public REST API in C# that allowed EHR systems to integrate with Wellevate and pull practitioner/patient information</li>
+                        <li>Collaborated with product owners and UX to work out the logistics of new features as a front-end SME in preparation for story writing</li>
+                        <li>Leveraged Karma and Jasmine to write robust, single responsibility blocks of code</li>
+                        <li>Conducted interviews for prospective new hires</li>
                     </ul>
                 </div>
             </div>

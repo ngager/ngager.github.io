@@ -15,13 +15,15 @@ class Skills extends React.Component {
                     <div>Agile Methodology</div>
                     <div>AngularJS/Angular Framework</div>
                     <div>Angular Material</div>
-                    <div>Bootstrap</div>
-                    <div>CSS</div>
+                    <div>Bootstrap/NgBootstrap</div>
+                    <div>CSS/SCSS</div>
+                    <div>C#/Razor</div>
                     <div>Google Analytics</div>
                     <div>Git</div>
                     <div>HTML5</div>
+                    <div>JavaScript/TypeScript</div>
+                    <div>Magento/PHP</div>
                     <div>Responsive Design</div>
-                    <div>Typescript</div>
                     <div>Unit Testing</div>
                 </div>
                 <h1 className="pt10px">Soft Skills</h1>

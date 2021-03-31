@@ -20,7 +20,7 @@ class Contact extends React.Component {
                     <FontAwesomeIcon className="icon" icon="mobile-alt"/>
                     <div className="contact-data">603 204 3293</div>
 
-                    <FontAwesomeIcon className="icon" icon="map-marked-alt"/>
+                    <FontAwesomeIcon className="icon" icon="map-marker-alt"/>
                     <div className="contact-data">Manchester, NH</div>
 
                     <FontAwesomeIcon className="icon" icon={['fab', 'linkedin']}/>
