@@ -15,6 +15,7 @@ class Header extends React.Component {
             <div className="flex column">
                 <h1>Nicole Gager</h1>
                 <h3>Software Developer</h3>
+                <span>Frontend SME</span>
             </div>
         </div>;
     }

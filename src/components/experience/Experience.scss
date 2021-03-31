@@ -3,19 +3,16 @@
   flex-direction: column;
   background-color: transparent;
   color: #747474;
-  padding: 10px 20px;
+  padding: 5px 20px;
 
   .experience-detail {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto auto auto auto;
     grid-gap: 5px;
-    border-bottom: 1px solid #CCCCCC;
     padding-top: 15px;
+    border-top: 1px solid #CCCCCC;
 
-    &:first-of-type {
-      border-top: 1px solid #CCCCCC;
-    }
   }
 
   .title {
@@ -29,6 +26,10 @@
     grid-column-end: 4;
   }
 
+  .company-location {
+    font-weight: 300;
+  }
+
   .responsibilities-list {
     grid-column-start: 1;
     grid-column-end: 5;
@@ -36,6 +37,10 @@
     ul {
       padding: 0 20px;
       list-style-position: outside;
+
+      li {
+        line-height: 1.2;
+      }
     }
   }
 

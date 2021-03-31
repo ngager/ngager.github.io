@@ -26,9 +26,10 @@ class Skills extends React.Component {
                     <div>Responsive Design</div>
                     <div>Unit Testing</div>
                 </div>
-                <h1 className="pt10px">Soft Skills</h1>
+                <h1 className="pt5px">Soft Skills</h1>
                 <div className="skills-list">
-                    <div>Team Oriented</div>
+                    <div>Detail Oriented</div>
+                    <div>Team Player</div>
                     <div>Time Management</div>
                     <div>Effective Communicator</div>
                 </div>

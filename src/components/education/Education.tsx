@@ -14,7 +14,7 @@ class Education extends React.Component {
             <div>
                 <h1>Education</h1>
                 <div className="grid-container">
-                    <div>University of New Hampshire</div>
+                    <div className="school-name">University of New Hampshire</div>
                     <div>BS in Computer Science</div>
                     <div>September 2011 - May 2015</div>
                     <div>Durham, NH</div>
