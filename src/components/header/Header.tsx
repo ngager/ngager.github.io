@@ -1,7 +1,5 @@
 import * as React from 'react';
 import './Header.scss';
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-
 
 class Header extends React.Component {
     constructor(props: any) {
@@ -11,7 +9,7 @@ class Header extends React.Component {
 
     render() {
         return <div className="header">
-            <img className="profile-image"/>
+            <img className="profile-image" data-html2canvas-ignore="true"/>
             <div className="flex column">
                 <h1>Nicole Gager</h1>
                 <h3>Software Developer</h3>

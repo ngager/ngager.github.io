@@ -1,14 +1,14 @@
 import * as React from 'react';
-import './Skills.scss';
+import './TechSkills.scss';
 
-class Skills extends React.Component {
+class TechSkills extends React.Component {
     constructor(props: any) {
         super(props);
         this.state = {};
     }
 
     render() {
-        return <div className="skills">
+        return <div className="tech-skills">
             <div>
                 <h1>Technical Skills</h1>
                 <div className="skills-list">
@@ -26,17 +26,9 @@ class Skills extends React.Component {
                     <div>Responsive Design</div>
                     <div>Unit Testing</div>
                 </div>
-                <h1 className="pt5px">Soft Skills</h1>
-                <div className="skills-list">
-                    <div>Detail Oriented</div>
-                    <div>Team Player</div>
-                    <div>Time Management</div>
-                    <div>Effective Communicator</div>
-                </div>
             </div>
-
         </div>;
     }
 }
 
-export default Skills;
+export default TechSkills;

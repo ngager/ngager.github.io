@@ -1,0 +1,13 @@
+.tech-skills {
+  display: flex;
+  background-color: transparent;
+  color: #747474;
+  padding: 5px 20px;
+
+  .skills-list {
+    display: grid;
+    grid-gap: 5px;
+  }
+}
+
+
