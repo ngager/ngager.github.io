@@ -1,0 +1,44 @@
+.experience {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  color: #747474;
+  padding: 10px 20px;
+
+  .experience-detail {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 5px;
+    border-bottom: 1px solid #CCCCCC;
+    padding-top: 15px;
+
+    &:first-of-type {
+      border-top: 1px solid #CCCCCC;
+    }
+  }
+
+  .title {
+    //font-weight: 500;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+  .company {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+  .responsibilities-list {
+    grid-column-start: 1;
+    grid-column-end: 5;
+
+    ul {
+      padding: 0 20px;
+      list-style-position: outside;
+    }
+  }
+
+}
+
+

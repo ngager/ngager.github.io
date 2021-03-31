@@ -16,9 +16,20 @@ class Skills extends React.Component {
                     <div>Typescript</div>
                     <div>HTML 5</div>
                     <div>CSS</div>
+                    <div>Responsive Design</div>
                     <div>Bootstrap</div>
                     <div>Angular Material</div>
+                    <div>Unit Testing</div>
+                    <div>Google Analytics</div>
+                    <div>Agile Methodology</div>
+                    <div>Git</div>
+                </div>
 
+                <h1>Soft Skills</h1>
+                <div>
+                    <div>Team Oriented</div>
+                    <div>Time Management</div>
+                    <div>Effective Communicator</div>
                 </div>
             </div>
 

@@ -12,7 +12,7 @@ class Contact extends React.Component {
     render() {
         return <div className="contact">
             <div>
-                <h1 className="mt0">Contact</h1>
+                <h1>Contact</h1>
                 <div className="grid-container">
                     <FontAwesomeIcon className="icon" icon="envelope"/>
                     <div className="contact-data">nicolecgager@gmail.com</div>
