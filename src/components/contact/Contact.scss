@@ -11,6 +11,10 @@
 
   .contact-data {
     grid-column-start: 2;
+
+    a {
+      text-decoration: none;
+    }
   }
   
   .grid-container {
