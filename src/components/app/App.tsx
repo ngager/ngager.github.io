@@ -9,7 +9,6 @@ import Experience from "../experience/Experience";
 class App extends React.Component<{appStyles: string}> {
   constructor(props: any) {
     super(props);
-    console.log('props:', props);
     this.state = {};
   }
 

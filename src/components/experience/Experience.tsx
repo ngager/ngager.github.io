@@ -19,7 +19,6 @@ class Experience extends React.Component {
                         <li>Designed complex front-end features from the ground up</li>
                         <li>Collaborated with product owners and UX to work out the logistics of new features </li>
                         <li>Conduct interviews for prospective new hires</li>
-
                     </ul>
                 </div>
             </div>
@@ -30,7 +29,7 @@ class Experience extends React.Component {
                 <div className="date-range">January 2015 - March 2018</div>
                 <div className="responsibilities-list">
                     <ul>
-                        <li>Migrated legacy codebase from AngularJS to Angular 4</li>
+                        <li>Migrated a legacy codebase from AngularJS to Angular 4</li>
                         <li>Increased front-end efficiency by breaking down large JSON response data into blocks from the application’s REST API</li>
                         <li>Created and managed UI standards in Confluence and reviewed front-end pull requests submitted by junior developers</li>
                         <li>Created UI wireframes for application feature requests using NinjaMock</li>

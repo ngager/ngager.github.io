@@ -4,27 +4,10 @@
   color: #747474;
   padding: 10px 20px;
 
-  .icon {
-    grid-column-start: 1;
-    grid-column-end: 2;
-  }
-
-  .contact-data {
-    grid-column-start: 2;
-  }
-  
   .grid-container {
     display: grid;
-    grid-template-columns: 20px 1fr;
-    grid-template-rows: 15px 15px 15px 15px;
     grid-gap: 5px;
-
   }
-
-  span {
-    margin: 3px;
-  }
-
 }
 
 

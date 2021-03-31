@@ -13,7 +13,7 @@ class Education extends React.Component {
         return <div className="education">
             <div>
                 <h1>Education</h1>
-                <div>
+                <div className="grid-container">
                     <div>University of New Hampshire</div>
                     <div>BS in Computer Science</div>
                     <div>September 2011 - May 2015</div>
